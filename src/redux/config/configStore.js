@@ -1,9 +1,9 @@
 // TODO: store 셋업하고 slice에서 import한 reducer를 할당하세요.
 import { configureStore } from "@reduxjs/toolkit";
-import { counterSlice } from "../slices/calculatorSlice";
+import todoSlice from "../slices/todoSlice";
 
 export default configureStore({
   reducer: {
-    counter: counterSlice,
+    todo: todoSlice,
   },
 });
